@@ -1,0 +1,72 @@
+header {
+  text-align: center;
+  background: url('https://i.imgur.com/j2JUjux.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  margin: 10px 0px 0px 0px;
+}
+h3 {
+  font-style: italic;
+  }
+#profile {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 950px;
+  width: 30%;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+button {
+  color: white;
+  background-color: #3b5998;
+  border: 1px solid white;
+  font-size: 20px;
+  font-family: helvetica;
+  padding: 0px 5px 0px 5px;
+  }
+  .blog-post {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    }
+  .fa {
+      /* color: #3b5998; */
+      height: 40%;
+      display: inline;
+      padding: 10px;
+    }
+    footer {
+        padding: 10px;
+        background: rgba(0,0,0,0.8);
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+}
